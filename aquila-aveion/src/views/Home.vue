@@ -5,9 +5,7 @@
       <div class="right-side"></div>
     </div>
     <div class="img-area">
-      <div>
-        <img class="image" src="../assets/lady1.png" alt="main-img" />
-      </div>
+      <img class="image" src="../assets/lady1.png" alt="main-img" />
     </div>
     <div>
       <ul class="list-area">
@@ -66,20 +64,24 @@ export default {
 }
 
 .img-area {
-  width: 40%;
+  width: 30%;
   height: 80%;
   background-color: #cf2b67;
   position: absolute;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 3px 3px 2px 1px #1f1e1e;
+  box-shadow: 0 5rem 6rem rgba(0, 0, 0, 0.2);
 }
 
 .image {
-  /* height: 100px;
-  width: 20%; */
-  /* object-fit: contain; */
+  height: 50%;
+  width: 50%;
+  object-fit: contain;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .list-area {
   display: flex;
