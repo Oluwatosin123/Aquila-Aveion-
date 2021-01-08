@@ -14,7 +14,7 @@
         <li>HOME</li>
         <li>ABOUT</li>
         <div class="img2">
-          <img src="../assets/best-Copy.jpg" alt="circle-img" />
+          <img src="../assets/best.jpg" alt="circle-img" />
         </div>
         <li>GALERRY</li>
         <li>CONTACT</li>
