@@ -42,6 +42,10 @@ export default {
   box-sizing: border-box;
 }
 
+body {
+  margin: 0px;
+}
+
 .parent-container {
   display: flex;
   width: 100%;
