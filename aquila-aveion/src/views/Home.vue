@@ -71,17 +71,18 @@ export default {
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: 0 5rem 6rem rgba(0, 0, 0, 0.2);
+  box-shadow: 0rem 2rem 3rem rgba(0, 0, 0, 0.616);
 }
 
 .image {
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 120%;
   object-fit: contain;
   position: absolute;
-  top: 50%;
+  top: 58.1%;
   left: 50%;
   transform: translate(-50%, -50%);
+  margin-left: 0.5rem;
 }
 .list-area {
   display: flex;
