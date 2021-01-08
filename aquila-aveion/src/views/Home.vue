@@ -5,16 +5,16 @@
       <div class="right-side"></div>
     </div>
     <div class="img-area">
-      <div class="image">
-        <img src="../assets/lady1.png" alt="main-img" />
+      <div>
+        <img class="image" src="../assets/lady1.png" alt="main-img" />
       </div>
     </div>
     <div>
       <ul class="list-area">
         <li>HOME</li>
         <li>ABOUT</li>
-        <div class="img2">
-          <img src="../assets/best.jpg" alt="circle-img" />
+        <div>
+          <img class="img2" src="../assets/best.jpg" alt="circle-img" />
         </div>
         <li>GALERRY</li>
         <li>CONTACT</li>
@@ -66,16 +66,24 @@ export default {
 }
 
 .img-area {
-  width: 100px;
-  height: 50px;
+  width: 40%;
+  height: 80%;
   background-color: #cf2b67;
-  background-color: #082214;
   position: absolute;
-  left: 10rem;
-  top: 15rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 3px 3px 2px 1px #1f1e1e;
+}
+
+.image {
+  /* height: 100px;
+  width: 20%; */
+  /* object-fit: contain; */
 }
 .list-area {
   display: flex;
+  position: absolute;
 }
 
 .img2 {
