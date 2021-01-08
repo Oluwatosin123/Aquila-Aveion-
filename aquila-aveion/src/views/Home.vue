@@ -7,14 +7,14 @@
     <div class="img-area">
       <img class="image" src="../assets/lady1.png" alt="main-img" />
     </div>
-    <div>
+    <div class="mother-list">
       <ul class="list-area">
         <li>HOME</li>
         <li>ABOUT</li>
         <div>
           <img class="img2" src="../assets/best.jpg" alt="circle-img" />
         </div>
-        <li>GALERRY</li>
+        <li>GALLERY</li>
         <li>CONTACT</li>
       </ul>
     </div>
@@ -87,6 +87,10 @@ export default {
 .list-area {
   display: flex;
   position: absolute;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 40%;
+  list-style: none;
 }
 
 .img2 {
@@ -94,5 +98,12 @@ export default {
   width: 50px;
   height: 50px;
   position: absolute;
+}
+
+.mother-list {
+  margin-top: -3rem;
+  color: #fff;
+  display: flex;
+  justify-content: center;
 }
 </style>
