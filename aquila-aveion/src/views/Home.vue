@@ -11,7 +11,7 @@
       <ul class="list-area">
         <li>HOME</li>
         <li>ABOUT</li>
-        <div>
+        <div class="set">
           <img class="img2" src="../assets/best.jpg" alt="circle-img" />
         </div>
         <li>GALLERY</li>
@@ -43,27 +43,28 @@ export default {
 }
 
 body {
-  margin: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .parent-container {
   display: flex;
   width: 100%;
-  height: 100vh;
-  background-color: aqua;
+  height: 110vh;
+  /* background-color: aqua; */
   overflow: hidden;
   position: relative;
 }
 
 .left-side {
   width: 50%;
-  height: 100vh;
+  height: 110vh;
   background-color: #bd0f4d;
 }
 
 .right-side {
   width: 50%;
-  height: 100vh;
+  height: 110vh;
   background-color: #cb2964;
 }
 
@@ -83,7 +84,7 @@ body {
   width: 120%;
   object-fit: contain;
   position: absolute;
-  top: 58.1%;
+  top: 59.8%;
   left: 50%;
   transform: translate(-50%, -50%);
   margin-left: 0.5rem;
@@ -99,15 +100,23 @@ body {
 
 .img2 {
   border-radius: 50%;
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   position: absolute;
 }
 
 .mother-list {
-  margin-top: -3rem;
+  margin-top: -6rem;
+  margin-bottom: 1rem;
   color: #fff;
   display: flex;
   justify-content: center;
+  justify-content: space-around;
+}
+
+.set {
+  padding: 0 auto;
+  margin-top: -2rem;
+  margin-left: -2rem;
 }
 </style>
